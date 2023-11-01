@@ -4,9 +4,10 @@
     --Playfair: 'Playfair Display', serif;
     --Quicksand: 'Quicksand', sans-serif;
     --Roboto: 'Roboto', sans-serif;
-    --dark: #3c393d;
+    --dark: #fff;
     --exDark: #2b2b2b;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -24,6 +25,7 @@ img{
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 1.2rem;
+
 }
 
 /* header */
@@ -54,13 +56,13 @@ header{
 .navbar-nav a{
     text-transform: uppercase;
     font-family: var(--Roboto);
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
     display: inline-block;
     padding: 0.4rem 0.1rem;
-    letter-spacing: 3px;
+    letter-spacing: px;
     transition: opacity 0.5s ease;
 }
 .navbar-nav a:hover{
@@ -78,11 +80,16 @@ header{
     font-size: 3rem;
     font-family: var(--Playfair);
     line-height: 1.2;
+    color: #fff;
 }
+
+
 .banner-title span{
     font-family: var(--Playfair);
+
     color: var(--exDark);
 }
+
 .banner p{
     padding: 1rem 0 2rem 0;
     font-size: 1.2rem;
@@ -241,7 +248,7 @@ header{
     color: var(--dark);
     display: inline-block;
     background: var(--dark);
-    color: #fff;
+    color: #0c0b0b;
     padding: 0.55rem 1.2rem;
     transition: all 0.5s ease;
 }
@@ -265,7 +272,7 @@ header{
 /* footer */
 footer{
     background: var(--exDark);
-    color: #fff;
+    color: #0f0f0f;
     text-align: center;
     padding: 2rem 0;
 }
@@ -276,7 +283,7 @@ footer{
 }
 .social-links a{
     border: 2px solid #fff;
-    color: #fff;
+    color: #131212;
     display: block;
     width: 40px;
     height: 40px;
@@ -307,6 +314,7 @@ footer{
         padding-left: 1.2rem;
     }
     .banner-title{
+        color: #f9f9f9;
         font-size: 5rem;
     }
     .banner form{
